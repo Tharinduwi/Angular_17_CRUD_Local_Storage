@@ -6,17 +6,19 @@ export class EmployeeModel {
   state:string;
   emailId:string;
   contactNo:string;
-  address:string
+  address:string;
+  pinCode:string
 
 
   constructor() {
 
-    this.empId=0;
+    this.empId=1;
     this.name='';
     this.city='';
     this.state='';
     this.emailId='';
     this.contactNo='';
     this.address='';
+    this.pinCode='';
   }
 }
