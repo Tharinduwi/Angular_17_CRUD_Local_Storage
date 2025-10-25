@@ -45,7 +45,7 @@ export class App {
     });
   }
   onSave() {
-    debugger;
+    //debugger;
     const oldData = localStorage.getItem('EmpData');
     if (oldData != null) {
       const parseData = JSON.parse(oldData);
